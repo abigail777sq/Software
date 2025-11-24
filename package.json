@@ -1,0 +1,12 @@
+{
+    "name": "cs-grade-calculator",
+    "version": "1.0.0",
+    "description": "Grade Calculator for UTEC",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "node tests/test.js"
+    },
+    "author": "",
+    "license": "ISC"
+}
