@@ -5,8 +5,12 @@
     "main": "src/index.js",
     "scripts": {
         "start": "node src/index.js",
-        "test": "node tests/test.js"
+        "test": "node tests/test.js",
+        "test:coverage": "c8 --reporter=lcov --reporter=text node tests/test.js"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "c8": "^10.1.3"
+    }
 }

@@ -1,0 +1,15 @@
+Run sonarsource/sonarqube-scan-action@v6
+Warning: Running this GitHub Action without SONAR_TOKEN is not recommended
+Installing Sonar Scanner CLI 7.2.0.5079 for linux-x64...
+Downloading from: https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-7.2.0.5079-linux-x64.zip
+/usr/bin/unzip -o -q /home/runner/work/_temp/c55af4cd-049b-40d4-bb03-2b7a230dc710
+Sonar Scanner CLI cached to: /opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64
+/opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64/bin/sonar-scanner -Dsonar.projectBaseDir=.
+22:14:53.796 INFO  Scanner configuration file: /opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64/conf/sonar-scanner.properties
+22:14:53.799 INFO  Project root configuration file: /home/runner/work/Software/Software/sonar-project.properties
+22:14:53.814 INFO  SonarScanner CLI 7.2.0.5079
+22:14:53.817 INFO  Linux 6.11.0-1018-azure amd64
+22:14:54.985 ERROR Failed to query server version: GET http://213.199.42.57:9002/api/v2/analysis/version failed with HTTP 401. Please check the property sonar.token or the environment variable SONAR_TOKEN.
+22:14:54.985 INFO  EXECUTION FAILURE
+22:14:54.986 INFO  Total time: 1.192s
+Error: Action failed: The process '/opt/hostedtoolcache/sonar-scanner-cli/7.2.0.5079/linux-x64/bin/sonar-scanner' failed with exit code 1
