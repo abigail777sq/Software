@@ -1,3 +1,19 @@
+
+## Resultados de calidad y análisis SonarQube
+
+### Calidad requerida
+![Calidad requerida](quality.png)
+
+### Resultado del alumno en SonarQube
+![Resultado SonarQube](sonnar.png)
+
+
+
+
+
+
+
+
 Calculadora
 Se requiere implementar el módulo de cálculo de la nota final, alineado con los RF y RNF descritas. La solución puede desarrollarse en el lenguaje de programación de su preferencia y deberá ejecutarse desde la terminal. No es necesario implementar persistencia en base de datos ni una interfaz gráfica. Priorice una solución funcional, modular y correctamente estructurada dentro del tiempo disponible.
 
